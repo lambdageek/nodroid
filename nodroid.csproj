@@ -5,6 +5,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup Condition="false" >
     <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
     <UseMonoRuntime>true</UseMonoRuntime>
     <SelfContained>true</SelfContained>
